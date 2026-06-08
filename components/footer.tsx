@@ -23,22 +23,22 @@ export function Footer() {
             <h4 className="font-bold mb-4">빠른 링크</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
-                <Link href="#intro" className="hover:text-white transition-colors">
+                <Link href="/intro" className="hover:text-white transition-colors">
                   소개
                 </Link>
               </li>
               <li>
-                <Link href="#ecosystem" className="hover:text-white transition-colors">
+                <Link href="/ecosystem" className="hover:text-white transition-colors">
                   해양 생태계
                 </Link>
               </li>
               <li>
-                <Link href="#action" className="hover:text-white transition-colors">
+                <Link href="/efforts" className="hover:text-white transition-colors">
                   할 수 있는 노력
                 </Link>
               </li>
               <li>
-                <Link href="#game" className="hover:text-white transition-colors">
+                <Link href="/mini-game" className="hover:text-white transition-colors">
                   미니 게임
                 </Link>
               </li>
